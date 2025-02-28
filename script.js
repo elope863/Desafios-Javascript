@@ -1,6 +1,8 @@
 function showModal(message) {
+  const modal = document.getElementById("myModal");
+  if (modal.style.display === "block") return; // Prevent multiple displays
   document.getElementById("modalResult").innerText = message;
-  document.getElementById("myModal").style.display = "block";
+  modal.style.display = "block";
 }
 
 function closeModal() {

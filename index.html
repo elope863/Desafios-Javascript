@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafios de JavaScript</title>
+    <title>Desafio de JavaScript</title>
     <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
 </head>
 <body>
@@ -14,8 +13,7 @@
         <!-- Botones para ejecutar los desafíos -->
         <div class="input-group">
             <label for="input1">Desafio 1: Saludar</label>
-<button class="btn" id="btn1">Ejecutar</button>
-
+            <button class="btn" onclick="ejercicio1()">Ejecutar</button>
         </div>
 
         <div class="input-group">
@@ -28,8 +26,7 @@
         <div class="input-group">
             <label for="input3">Desafio 3: Duplicar Numero</label>
             <input type="text" id="input3" placeholder="Ingresa un número">
-<button class="btn" id="btn3">Ejecutar</button>
-
+            <button class="btn" onclick="ejercicio3()">Ejecutar</button>
         </div>
 
         <div class="input-group">
@@ -37,23 +34,20 @@
             <input type="text" id="input4a" placeholder="Ingresa el primer número">
             <input type="text" id="input4b" placeholder="Ingresa el segundo número">
             <input type="text" id="input4c" placeholder="Ingresa el tercer número">
-<button class="btn" id="btn4">Ejecutar</button>
-
+            <button class="btn" onclick="ejercicio4()">Ejecutar</button>
         </div>
 
         <div class="input-group">
             <label for="input5a">Desafio 5: Numero mayor</label>
             <input type="text" id="input5a" placeholder="Ingresa el primer número">
             <input type="text" id="input5b" placeholder="Ingresa el segundo número">
-<button class="btn" id="btn5">Ejecutar</button>
-
+            <button class="btn" onclick="ejercicio5()">Ejecutar</button>
         </div>
 
         <div class="input-group">
             <label for="input6">Desafio 6: Cuadrado de un numero</label>
             <input type="text" id="input6" placeholder="Ingresa un número">
-<button class="btn" id="btn6">Ejecutar</button>
-
+            <button class="btn" onclick="ejercicio6()">Ejecutar</button>
         </div>
     </div>
 
@@ -66,98 +60,6 @@
     </div>
 
     <!-- Enlazamos el archivo de JavaScript -->
-<script src="script.js"></script>
-<script>
-    document.getElementById("btn1").addEventListener("click", ejercicio1);
-    document.getElementById("btn2").addEventListener("click", ejercicio2);
-    document.getElementById("btn3").addEventListener("click", ejercicio3);
-    document.getElementById("btn4").addEventListener("click", ejercicio4);
-    document.getElementById("btn5").addEventListener("click", ejercicio5);
-    document.getElementById("btn6").addEventListener("click", ejercicio6);
-</script>
-
-
+    <script src="script.js"></script>
 </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafios de JavaScript</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
-</head>
-<body>
-    <div class="container">
-        <h1>Desafios de JavaScript</h1>
-
-        <!-- Botones para ejecutar los desafíos -->
-        <div class="input-group">
-            <label for="input1">Desafio 1: Saludar</label>
-<button class="btn" id="btn1">Ejecutar</button>
-
-        </div>
-
-        <div class="input-group">
-            <label for="input2">Desafio 2: Saludar con nombre</label>
-            <input type="text" id="input2" placeholder="Ingresa tu nombre">
-<button class="btn" id="btn2">Ejecutar</button>
-
-        </div>
-
-        <div class="input-group">
-            <label for="input3">Desafio 3: Duplicar Numero</label>
-            <input type="text" id="input3" placeholder="Ingresa un número">
-<button class="btn" id="btn3">Ejecutar</button>
-
-        </div>
-
-        <div class="input-group">
-            <label for="input4a">Desafio 4: Promedio de 3 Numeros</label>
-            <input type="text" id="input4a" placeholder="Ingresa el primer número">
-            <input type="text" id="input4b" placeholder="Ingresa el segundo número">
-            <input type="text" id="input4c" placeholder="Ingresa el tercer número">
-<button class="btn" id="btn4">Ejecutar</button>
-
-        </div>
-
-        <div class="input-group">
-            <label for="input5a">Desafio 5: Numero mayor</label>
-            <input type="text" id="input5a" placeholder="Ingresa el primer número">
-            <input type="text" id="input5b" placeholder="Ingresa el segundo número">
-<button class="btn" id="btn5">Ejecutar</button>
-
-        </div>
-
-        <div class="input-group">
-            <label for="input6">Desafio 6: Cuadrado de un numero</label>
-            <input type="text" id="input6" placeholder="Ingresa un número">
-<button class="btn" id="btn6">Ejecutar</button>
-
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <p id="modalResult"></p>
-        </div>
-    </div>
-
-    <!-- Enlazamos el archivo de JavaScript -->
-<script src="script.js"></script>
-<script>
-    document.getElementById("btn1").addEventListener("click", ejercicio1);
-    document.getElementById("btn2").addEventListener("click", ejercicio2);
-    document.getElementById("btn3").addEventListener("click", ejercicio3);
-    document.getElementById("btn4").addEventListener("click", ejercicio4);
-    document.getElementById("btn5").addEventListener("click", ejercicio5);
-    document.getElementById("btn6").addEventListener("click", ejercicio6);
-</script>
-
-
-</body>
-</html>
->>>>>>> b07768d5fb5689d1e6204383bd3ac32367af568e
