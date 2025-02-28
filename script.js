@@ -20,7 +20,6 @@ function validateInput(input) {
   return value;
 }
 
-
 function ejercicio2() {
   console.log("ejercicio2 called");
 
@@ -42,7 +41,6 @@ function ejercicio3() {
   showModal(`El doble de ${num} es ${duplicado}.`);
 }
 
-
 function ejercicio4() {
   console.log("ejercicio4 called");
 
@@ -55,7 +53,6 @@ function ejercicio4() {
   showModal(`El promedio es ${promedio}.`);
 }
 
-
 function ejercicio5() {
   console.log("ejercicio5 called");
 
@@ -66,7 +63,6 @@ function ejercicio5() {
   const mayor = (a > b) ? a : b;
   showModal(`El número mayor es ${mayor}.`);
 }
-
 
 function ejercicio6() {
   console.log("ejercicio6 called");

@@ -1,0 +1,14 @@
+{
+  "name": "javascript-challenges",
+  "version": "1.0.0",
+  "description": "A collection of JavaScript challenges.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "Esteban",
+  "license": "ISC"
+}
