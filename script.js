@@ -1,3 +1,5 @@
+console.log("script.js loaded"); // Added log to confirm script execution
+
 function showModal(message) {
   const modal = document.getElementById("myModal");
   if (modal.style.display === "block") {
@@ -25,15 +27,22 @@ function validateInput(input) {
 }
 
 function ejercicio2() {
-  console.log("ejercicio2 called");
+  console.log("ejercicio2 called"); // Log to confirm function call
 
   const nombre = document.getElementById("input2").value;
+  console.log("Nombre capturado:", nombre); // Added log to check the captured name
   if (!nombre) {
       showModal("Por favor, ingresa tu nombre.");
       return;
   }
   showModal(`¡Hola, ${nombre}!`);
+  console.log("Greeting displayed for:", nombre); // Added log to confirm greeting display
 }
+
+document.getElementById("btn2").addEventListener("click", function() {
+  console.log("Button clicked"); // Log to confirm button click
+  ejercicio2();
+});
 
 function ejercicio3() {
   console.log("ejercicio3 called");
