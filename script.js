@@ -28,9 +28,8 @@ function validateInput(input) {
 
 function ejercicio2() {
   console.log("ejercicio2 called"); // Log to confirm function call
-
   const nombre = document.getElementById("input2").value;
-  console.log("Nombre capturado:", nombre); // Added log to check the captured name
+
   if (!nombre) {
       showModal("Por favor, ingresa tu nombre.");
       return;
